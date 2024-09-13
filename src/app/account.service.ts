@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 export class AccountService {
 
   
-  private apiUrl = 'http://localhost:8080/api/';
+  private apiUrl = 'http://localhost:8080/api/createAccount/ui';
   constructor(private http: HttpClient) { }
 
   createAccount(account:any): Observable<any>{

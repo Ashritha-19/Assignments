@@ -9,6 +9,7 @@ import { CreateaccountComponent } from './createaccount/createaccount.component'
 import { CreateatmComponent } from './createatm/createatm.component';
 import { LoginComponent } from './login/login.component';
 import { WithdrawComponent } from './withdraw/withdraw.component';
+import { LoansearchComponent } from './loansearch/loansearch.component';
 
 const routes: Routes = [{
   path:'register',
@@ -37,6 +38,11 @@ const routes: Routes = [{
 {
   path:'withdraw',
   component:WithdrawComponent
+},
+{
+  path:'searchaccount',
+  component:LoansearchComponent
+
 },
 { path: 'login', component: LoginComponent },
   { path: '', redirectTo: '/login', pathMatch: 'full' }
